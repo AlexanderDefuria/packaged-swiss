@@ -1,0 +1,10 @@
+Package: swiss-scouting
+Version: 0.1-1
+Section: devel
+Priority: optional
+Architecture: all
+Depends: python3, python3-pip, python3-dev, libpq-dev, postgresql, postgresql-contrib, nginx, build-essential, libssl-dev, libffi-dev, python3-setuptools
+Maintainer: Alexander De Furia <defuria.alexander@gmail.com>
+Description: The main package for the SWISS scouting system.
+ long description to be written later....
+

@@ -1,0 +1,15 @@
+[Unit]
+Description=gunicorn daemon
+After=network.target
+
+
+
+[Service]
+User=root
+Group=www-data
+WorkingDirectory=/etc/swiss-scouting/FRC-Scouting
+ExecStart=/etc/swiss-scouting/FRC-Scouting/venv/bin/gunicorn --access-logfile - --workers 3 --bind unix:/etc/swiss-scouting/FRC-Scouting/FRC-Scouting.sock FRC-Scouting.wsgi:application
+
+
+[Install]
+WantedBy=multi-user.target

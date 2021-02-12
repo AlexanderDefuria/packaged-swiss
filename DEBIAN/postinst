@@ -1,0 +1,14 @@
+#!/bin/bash
+
+cp /usr/share/FRC-Scouting/nginx.conf /etc/nginx
+cp /usr/share/FRC-Scouting/sites-available/FRC-Scouting /etc/nginx/sites-available/FRC-Scouting
+ln -s /etc/nginx/sites-available/FRC-Scouting /etc/nginx/sites-enabled/FRC-Scouting
+
+
+#rm -r /etc/swiss-scouting/FRC-Scouting/venv
+#sudo -H pip3 install virtualenv
+#virtualenv /etc/swiss-scouting/FRC-Scouting/venv
+
+#source /etc/swiss-scouting/FRC-Scouting/venv/bin/activate
+#pip install -r /etc/swiss-scouting/FRC-Scouting/requirements.txt
+
