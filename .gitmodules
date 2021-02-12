@@ -1,0 +1,7 @@
+[submodule "etc/swiss-scouting/FRC-Scouting"] 
+  path = etc/swiss-scouting/FRC-Scouting
+  url = git://github.com/AlexanderDeFuria/FRC-Scouting
+
+[submodule "usr/share/FRC-Scouting"] 
+  path = usr/share/FRC-Scouting
+  url = git://github.com/AlexanderDeFuria/FRC-Scouting
